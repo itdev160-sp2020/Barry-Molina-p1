@@ -1,0 +1,124 @@
+
+    <header>
+        <h1>Programming Language Comparison</h1>
+    </header>
+    <main>
+        <div id="top-20">
+            <h2>Top 20 Programming Languages</h2>
+            <p>What are the most popular languages in programming today? According to the <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a>
+            index these are the 20 most popular languages as of March 2020:</p>
+            <ol>
+                <li>Java</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Visual Basic .NET</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>Go</li>
+                <li>R</li>
+                <li>Assembly language</li>
+                <li>Swift</li>
+                <li>Ruby</li>
+                <li>MATLAB</li>
+                <li>pl/SQL</li>
+                <li>Perl</li>
+                <li>Visual Basic</li>
+                <li>Objective-C</li>
+                <li>Delphi/Object Pascal</li>
+            </ol>
+        </div>
+        <div id="comparison-chart">
+            <h2>Comparison Chart</h2>
+            <p>This table, based on information found at <a href="https://rosettacode.org/wiki/Language_Comparison_Table">rosettacode.org</a>,
+            compares the features of some of these top programming languages.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Paradigm(s)</th>
+                        <th>Type strength</th>
+                        <th>Expression of types</th>
+                        <th>Type checking</th>
+                        <th>Garbage collection</th>
+                        <th>Intended use</th>
+                        <th>Design goals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Java</th>
+                        <td>imperative, object-oriented, generic, reflective</td>
+                        <td>strong</td>
+                        <td>explicit</td>
+                        <td>static</td>
+                        <td>Yes</td>
+                        <td>Application</td>
+                        <td>Write once run anywhere</td>
+                    </tr>
+                    <tr>
+                        <th>C</th>
+                        <td>imperative</td>
+                        <td>weak</td>
+                        <td>explicit</td>
+                        <td>static</td>
+                        <td>Optional through external tools</td>
+                        <td>System, Embedded</td>
+                        <td>Low level access, Minimal constraint</td>
+                    </tr>
+                    <tr>
+                        <th>Python</th>
+                        <td>imperative, object-oriented, functional, aspect-oriented, reflective</td>
+                        <td>strong</td>
+                        <td>implicit</td>
+                        <td>dynamic</td>
+                        <td>Yes</td>
+                        <td>Application, Education, Scripting</td>
+                        <td>Expressiveness, interactive manipulation and analysis of datasets</td>
+                    </tr>
+                    <tr>
+                        <th>C++</th>
+                        <td>imperative, object-oriented, generic</td>
+                        <td>strong</td>
+                        <td>explicit, partially implicit</td>
+                        <td>static, dynamic</td>
+                        <td>Optional through external tools</td>
+                        <td>Application, System</td>
+                        <td>Abstraction, Efficiency, Compatibility</td>
+                    </tr>
+                    <tr>
+                        <th>C#</th>
+                        <td>imperative, object-oriented, generic reflective, functional, event-driven</td>
+                        <td>strong</td>
+                        <td>implicit</td>
+                        <td>static, dynamic (for interop)</td>
+                        <td>Yes</td>
+                        <td>Application</td>
+                        <td>Rapid application development</td>
+                    </tr>
+                    <tr>
+                        <th>JavaScript</th>
+                        <td>imperative, object-oriented, functional, reflective</td>
+                        <td>weak</td>
+                        <td>implicit</td>
+                        <td>dynamic</td>
+                        <td>Yes</td>
+                        <td>Client side web scripting</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>PHP</th>
+                        <td>imperative, object-oriented, reflective</td>
+                        <td></td>
+                        <td></td>
+                        <td>dynamic</td>
+                        <td>Yes</td>
+                        <td>Web Application, CLI</td>
+                        <td>Robustness and Simplicity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>

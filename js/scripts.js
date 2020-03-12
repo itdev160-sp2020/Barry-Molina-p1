@@ -24,11 +24,12 @@ var review = [
     }
 ];
 
+
 var langEl = document.getElementById('language');
 langEl.textContent = language;
 
-var imageEl = document.getElementById('lang-image');
-imageEl.src = langImage;
+//var imageEl = document.getElementById('lang-image');
+//imageEl.src = langImage;
 
 var whyPopularEl = document.getElementById('why-popular');
 whyPopularEl.textContent = whyPopular;

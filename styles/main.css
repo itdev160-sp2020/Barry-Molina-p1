@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(215, 100%, 99%);
+    font-family: arial, helvetica, sans-serif; 
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    overflow: auto;
+    background-color: #8eb1de;
+    margin-bottom: 2em;
+}
+
+#banner {
+    /* float: left; */
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+#logo {
+    width: 100px;
+}
+
+h1 {
+    padding: .5em 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+table {
+    clear: both;
+    border-collapse: collapse;
+    line-height: 1.4em;
+}
+#comparison-chart th, #comparison-chart td {
+    border: 1px solid black;
+    padding: .5em;
+    text-align: center;
+    line-height: 1.35em;
+}
+#comparison-chart th {
+    width: 100px;
+}
+
+#top-20 ol {
+    border: 1px solid black;
+    max-width: 500px;
+    margin-left: 12%;
+}
+
+#spotlight th, #spotlight td {
+    border: 1px solid black;
+    /* text-align: center;
+    line-height: 1.35em; */
+}
+#spotlight th[colspan="1"], #spotlight td[colspan="1"]  {
+    width: 50%;
+}
+
+#spotlight th {
+    padding: .5em 0;
+    background-color: hsl(215, 25%, 85%);
+}
+#spotlight td {
+    padding: 2em;
+    background-color: hsl(61, 100%, 98%);
+}
+#spotlight ul {
+    /* padding: 1em 3em; */
+}
+#language {
+    font-size: 2em;
+    color: white;
+}
+
+
