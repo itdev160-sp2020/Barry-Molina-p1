@@ -12,14 +12,17 @@ var popularApps = ['Eclipse', 'Netbeans IDE', 'Minecraft', 'RuneScape'];
 var review = [
     {
         name: 'Andrew Bromage',
+        link: 'https://www.quora.com/What-do-you-think-about-Java',
         text: 'If you’re asking about Java as a programming language, there’s very little to recommend it. It’s a procedural language with the usual horribly-broken Simula-style object system, much like 90% of languages designed after 1990 and inheriting all of the theoretical and practical problems therein. It’s unnecessarily verbose, doing anything nontrivial carries a high boilerplate burden, and I could go on, but I think I’ve made my point.'
     },
     {
         name: 'Andrey Kozhanov',
+        link: 'https://www.quora.com/What-do-you-think-about-Java',
         text: 'Java is my favorite language. It was not a love from the first sight and the main reason I decided to switch to it was an ability to run the same program on any platform with Java Virtual Machine on it.'
     },
     {
         name: 'Thomas Knowles',
+        link: 'https://www.quora.com/What-do-you-think-about-Java',
         text: 'Honestly, I’ve found it to be a lovely language, all things considered. Static typing, proper interfaces, vast, vast libraries and a huge developer community. Sadly, I don’t get to use it much these days, since my field of expertise has drifted somewhat since learning it, but it was and would be my go-to language if I needed to develop an application of any significant size. Well, honestly I’d probably use Scala instead these days, if possible, but still, it’d be my second choice!'
     }
 ];
@@ -55,19 +58,27 @@ function appendList(listId, arr) {
 function appendReview(review) {
     var reviewEl = document.getElementById('reviews');
     var name;
+    var link;
     var text;
     var heading;
     var para;
+    var div;
 
     for (var i = 0; i < review.length; i++) {
         name = document.createTextNode(review[i].name);
         text = document.createTextNode(review[i].text);
         heading = document.createElement('h3');
         para = document.createElement('p');
-        heading.appendChild(name);
+        link = document.createElement('a');
+        div = document.createElement('div');
+        link.href = review[i].link;
+        div.setAttribute('class', 'review');
+        link.appendChild(name);
+        heading.appendChild(link);
         para.appendChild(text);
-        reviewEl.appendChild(heading);
-        reviewEl.appendChild(para);
+        div.appendChild(heading);
+        div.appendChild(para);
+        reviewEl.appendChild(div);
     }
 }
 
