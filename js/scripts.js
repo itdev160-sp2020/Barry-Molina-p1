@@ -72,6 +72,7 @@ function appendReview(review) {
         link = document.createElement('a');
         div = document.createElement('div');
         link.href = review[i].link;
+        link.setAttribute('target', '_blank');
         div.setAttribute('class', 'review');
         link.appendChild(name);
         heading.appendChild(link);
