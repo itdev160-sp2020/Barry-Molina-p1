@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: hsl(215, 100%, 99%);
+    background-color: hsl(215, 0%, 100%);
     font-family: arial, helvetica, sans-serif; 
 }
+
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -14,7 +15,8 @@ main {
 
 header {
     overflow: auto;
-    background-color: #8eb1de;
+    background-color: hsl(214, 55%, 61%);
+    /* background-color: #8eb1de; */
     margin-bottom: 2em;
 }
 
@@ -23,34 +25,26 @@ header {
     width: 100%;
     border-bottom: 1px solid black;
 }
-#logo {
-    width: 100px;
-}
 
 h1 {
-    padding: .5em 0;
+    font-family: 'Share Tech Mono', monospace;
+    padding: .3em 0;
     text-align: center;
     border-bottom: 1px solid black;
+    font-size: 3em;
 }
+
 table {
     clear: both;
     border-collapse: collapse;
     line-height: 1.4em;
 }
+
 #comparison-chart th, #comparison-chart td {
     border: 1px solid black;
     padding: .5em;
     text-align: center;
     line-height: 1.35em;
-}
-#comparison-chart th {
-    width: 100px;
-}
-
-#top-20 ol {
-    border: 1px solid black;
-    max-width: 500px;
-    margin-left: 12%;
 }
 
 #spotlight th, #spotlight td {
@@ -58,24 +52,49 @@ table {
     /* text-align: center;
     line-height: 1.35em; */
 }
+
 #spotlight th[colspan="1"], #spotlight td[colspan="1"]  {
     width: 50%;
 }
 
 #spotlight th {
+    font-family: 'Share Tech Mono', monospace;
     padding: .5em 0;
-    background-color: hsl(215, 25%, 85%);
+    background-color: hsl(16, 82%, 66%);
+    font-size: .9em;
+    /* background-color: hsl(299, 36%, 73%); */
+    /* background-color: hsl(215, 25%, 85%); */
 }
+
 #spotlight td {
+    /* font-family: 'Ubuntu Mono', monospace; */
     padding: 2em;
-    background-color: hsl(61, 100%, 98%);
+    background-color: hsl(16, 82%, 96%);
+    /* background-color: hsl(299, 36%, 93%); */
+    /* background-color: hsl(61, 100%, 98%); */
 }
+
 #spotlight ul {
     /* padding: 1em 3em; */
 }
+
 #language {
+    font-family: 'VT323', monospace;
     font-size: 2em;
-    color: white;
+    color: hsl(57, 90%, 100%);
+}
+
+#reviews h3 {
+    padding-bottom: .1em;
+    font-size: 1.1em;
+}
+
+#reviews p {
+    font-style: italic;
+    padding-bottom: 1.5em;
+}
+#reviews p:last-child {
+    padding-bottom: 0
 }
 
 

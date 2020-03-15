@@ -62,7 +62,7 @@ function appendReview(review) {
     for (var i = 0; i < review.length; i++) {
         name = document.createTextNode(review[i].name);
         text = document.createTextNode(review[i].text);
-        heading = document.createElement('h4');
+        heading = document.createElement('h3');
         para = document.createElement('p');
         heading.appendChild(name);
         para.appendChild(text);
